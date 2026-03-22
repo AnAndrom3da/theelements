@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about selenium, its properties, uses, and more.">
+    <title>Selenium</title>
+    <style>
+     body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Soft light green background */
+    color: #333; /* Dark gray text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007a0c; /* Dark green for the header */
+    color: #000; /* White text for contrast */
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+}
+
+h1 {
+    color: #ffffff; /* Forest green color for headings */
+    margin-bottom: 1rem;
+}
+
+h2, h3 {
+    color: #52ee61; /* Forest green color for headings */
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #007a0c; /* Dark green for footer */
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.2;
+}
+
+.card {
+    background-color: #ffffff; /* White background for cards */
+    color: #333; /* Dark text */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #2e8b57; /* Green left border for emphasis */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.card h3 {
+    color: #52ee61; /* Dark green for card headings */
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+.atomic-info {
+    font-family: "Courier New", monospace;
+    color: #52ee61; /* Dark green text for atomic info */
+    font-size: 1.2rem;
+}
+
+.highlight {
+    color: #52ee61; /* Forest green highlight */
+}
+
+a {
+    color: #52ee61; /* Dark green for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #52ee61; /* Lighter green on hover */
+    text-decoration: underline; /* Underline links on hover */
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selenium</h1>
+    </header>
+
+    <section>
+        <div class="card">
+            <h2>What is Selenium?</h2>
+            <p>Selenium is a chemical element with the symbol <span class="highlight">Se</span> and atomic number 34. It is a non-metal, commonly found as a grayish-black solid in its elemental form, and is an essential trace element in the human diet. Selenium is known for its role in antioxidants and its industrial applications, particularly in electronics and solar cells.</p>
+        </div>
+
+        <div class="card">
+            <h2>Physical Properties</h2>
+            <ul>
+                <li><strong>Atomic Number:</strong> 34</li>
+                <li><strong>Atomic Mass:</strong> 78.971 u (unified atomic mass units)</li>
+                <li><strong>Boiling Point:</strong> 685°C (1265°F)</li>
+                <li><strong>Melting Point:</strong> 217°C (423°F)</li>
+                <li><strong>Density:</strong> 4.79 g/cm³ (gray selenium)</li>
+                <li><strong>State at Room Temperature:</strong> Solid</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Chemical Properties</h2>
+            <p>Selenium is chemically similar to sulfur and tellurium. It can form compounds with metals, and its most common oxidation states are -2, +4, and +6. Selenium is a semiconductor and is used in various electronic devices. It can react with oxygen to form selenium dioxide (SeO₂) and can also form salts with alkali metals such as sodium selenide (Na₂Se).</p>
+        </div>
+
+        <div class="card">
+            <h2>Electron Configuration</h2>
+            <p>The electron configuration of selenium is <strong>1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁴</strong>, meaning it has two electrons in the first shell (1s), eight electrons in the second shell (2s² 2p⁶), eighteen electrons in the third shell (3s² 3p⁶ 3d¹⁰), and six electrons in the fourth shell (4s² 4p⁴). This gives selenium six valence electrons, making it reactive and capable of forming various chemical bonds.</p>
+        </div>
+
+        <div class="card">
+            <h2>Selenium Uses</h2>
+            <p>Selenium has a variety of uses in both biological and industrial fields:</p>
+            <ul>
+                <li><strong>Antioxidant Activity:</strong> Selenium is an essential trace element that plays a critical role in the body's antioxidant defense system, protecting cells from oxidative damage.</li>
+                <li><strong>Electronics:</strong> Selenium is used in the production of photovoltaic cells, light meters, and rectifiers. It is also used in the manufacture of semiconductors for electronics.</li>
+                <li><strong>Glass Industry:</strong> Selenium compounds are used in the production of glass, particularly in adding color to glass and removing discolorations.</li>
+                <li><strong>Food and Nutrition:</strong> Selenium is an essential nutrient that supports immune function and thyroid health. It is commonly found in foods such as Brazil nuts, seafood, and grains.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Selenium as an Antioxidant</h2>
+            <p>Selenium is a vital component of antioxidant enzymes such as glutathione peroxidase, which helps protect the body from oxidative stress and supports the immune system. It is important for maintaining the health of cells and tissues in the body.</p>
+        </div>
+
+        <div class="card">
+            <h2>Selenium in Industry</h2>
+            <p>Selenium plays an important role in the electronics industry due to its semiconductor properties. It is used in solar panels, rectifiers, and photocopiers. Additionally, selenium compounds are employed in the production of certain types of glass, where they help to improve its properties.</p>
+        </div>
+
+        <div class="card">
+            <h2>Selenium in Nature</h2>
+            <p>Selenium is a trace element found in soils and water. It is often found in the form of selenium-containing minerals such as selenite (Na₂SeO₃) and selenate (Na₂SeO₄). Plants absorb selenium from the soil, and animals obtain it from their diet. Selenium can accumulate in the food chain, with certain plants and animals containing higher concentrations of the element.</p>
+        </div>
+
+        <div class="card">
+            <h2>Selenium Deficiency and Toxicity</h2>
+            <p>While selenium is essential for health, both deficiency and toxicity can be harmful. Selenium deficiency can lead to conditions such as Keshan disease, affecting the heart, and increased susceptibility to infections. On the other hand, excessive selenium intake can result in toxicity, leading to symptoms like gastrointestinal disturbances, hair loss, and fatigue.</p>
+        </div>
+
+        <div class="card">
+            <h2>Selenium in the Universe</h2>
+            <p>Selenium is a relatively rare element in the universe, but it is produced in stars during nucleosynthesis. It is also found in meteorites and has been detected in some interstellar dust clouds. Although its abundance is limited, selenium plays an important role in the chemical processes of stars and other celestial bodies.</p>
+        </div>
+
+        <div class="card">
+            <h2>The Future of Selenium</h2>
+            <p>Ongoing research into selenium's role in health, particularly its antioxidant and immune-boosting properties, continues to expand. In industry, selenium's use in solar technology and electronics is expected to grow as demand for renewable energy and efficient technologies increases.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Selenium: Essential for Life and Industry &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
